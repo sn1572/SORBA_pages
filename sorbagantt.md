@@ -45,7 +45,6 @@
              null,                  <!-- Duration -->
              60,                    <!-- Percent complete -->
              null],                 <!-- Dependencies (Task ID) -->
-
             ['RR-refresh',
              'R&R Refresj',
              'ez17',
