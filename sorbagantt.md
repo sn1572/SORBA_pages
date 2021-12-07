@@ -1,26 +1,27 @@
 <html>
 <head>
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <script type="text/javascript">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
     google.charts.load('current', {'packages':['gantt']});
     google.charts.setOnLoadCallback(drawChart);
 
     function daysToMilliseconds(days) {
-      return days * 24 * 60 * 60 * 1000;
+        return days * 24 * 60 * 60 * 1000;
     }
 
     function drawChart() {
 
-      var data = new google.visualization.DataTable();
-      data.addColumn('string', 'Task ID');
-      data.addColumn('string', 'Task Name');
-      data.addColumn('string', 'Resource');
-      data.addColumn('date', 'Start Date');
-      data.addColumn('date', 'End Date');
-      data.addColumn('number', 'Duration');
-      data.addColumn('number', 'Percent Complete');
-      data.addColumn('string', 'Dependencies');
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Task ID');
+        data.addColumn('string', 'Task Name');
+        data.addColumn('string', 'Resource');
+        data.addColumn('date', 'Start Date');
+        data.addColumn('date', 'End Date');
+        data.addColumn('number', 'Duration');
+        data.addColumn('number', 'Percent Complete');
+        data.addColumn('string', 'Dependencies');
 
+      <!--
       data.addRows([
         ['Research', 'Find sources', null,
          new Date(2015, 0, 1), new Date(2015, 0, 5), null,  100,  null],
@@ -33,18 +34,39 @@
         ['Outline', 'Outline paper', 'write',
          null, new Date(2015, 0, 6), daysToMilliseconds(1), 100, 'Research']
       ]);
+      -->
 
-      var options = {
-        height: 275
-      };
+        data.addRows([
+            ['RB-refresh',          <!-- ID -->
+             'R&B Refresh',         <!-- Name -->
+             'ez17',                <!-- Resource used -->
+             new Date(2022, 0, 1),  <!-- Start date -->
+             new Date(2022, 3, 1),  <!-- End date -->
+             null,                  <!-- Duration -->
+             60,                    <!-- Percent complete -->
+             null]                  <!-- Dependencies (Task ID) -->
 
-      var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
+            ['RR-refresh',
+             'R&R Refresj',
+             'ez17',
+             new Date(2022, 3, 1),
+             new Date(2022, 9, 1),
+             null,
+             0,
+             'RB-refresh,ez17'
+        ]);
 
-      chart.draw(data, options);
+        var options = {
+            height: 275
+        };
+
+        var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
     }
-  </script>
+    </script>
 </head>
 <body>
-  <div id="chart_div"></div>
+    <div id="chart_div"></div>
 </body>
 </html>
