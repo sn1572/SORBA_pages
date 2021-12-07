@@ -52,7 +52,7 @@
              null, 0, 'Gnarnia-layout'],
             ['Gnarnia-bench', 'Gnarnia maintanence', 'hand-tools',
              new Date(2021, 11, 18),
-             new Date(2022, 2, 1),
+             new Date(2022, 1, 1),
              null, 0, null]
         ]);
 
