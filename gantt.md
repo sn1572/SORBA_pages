@@ -25,7 +25,7 @@
             ['RB-refresh',          <!-- ID -->
              'R&B Refresh',         <!-- Name -->
              'ez17',                <!-- Resource used -->
-             new Date(2022, 0, 1),  <!-- Start date -->
+             new Date(2021, 12, 18),<!-- Start date -->
              new Date(2022, 3, 1),  <!-- End date -->
              null,                  <!-- Duration -->
              60,                    <!-- Percent complete -->
@@ -53,7 +53,11 @@
             ['Gnarnia-cut', 'Cut Gnarnia trail', 'hand-tools',
              new Date(2022, 3, 2),
              new Date(2022, 6, 1),
-             null, 0, 'Gnarnia-layout']
+             null, 0, 'Gnarnia-layout'],
+            ['VMT', 'Add features to VMT', 'ez17',
+             new Date(2022, 9, 2),
+             new Date(2023, 2, 1),
+             null, 0, 'RR-refresh']
         ]);
 
         var options = {
