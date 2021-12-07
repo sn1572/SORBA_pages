@@ -23,7 +23,7 @@ title: SORBA pages
 email: sn1572@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Collection of planning materials for use with SORBA.
-baseurl: "/src/" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 domain: sn1572.github.io
 url: "https://sn1572.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sn1572rb
