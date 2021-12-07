@@ -18,7 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-theme-cayman
 title: SORBA pages
 email: sn1572@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -30,7 +29,7 @@ twitter_username: sn1572rb
 github_username:  sn1572
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
