@@ -53,7 +53,7 @@
              new Date(2022, 9, 1),
              null,
              0,
-             'RB-refresh,ez17'
+             'RB-refresh'
         ]);
 
         var options = {
