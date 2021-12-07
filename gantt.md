@@ -45,13 +45,13 @@
             ['Gnarnia-layout',
              'Gnarnia layout',
              'hand-tools',
-             new Date(2022, 0, 1),
-             new Date(2022, 2, 1),
+             new Date(2022, 1, 2),
+             new Date(2022, 3, 1),
              null,
              0,
              'Gnarnia-bench'],
             ['Gnarnia-cut', 'Cut Gnarnia trail', 'hand-tools',
-             new Date(2022, 2, 2),
+             new Date(2022, 3, 2),
              new Date(2022, 6, 1),
              null, 0, 'Gnarnia-layout']
         ]);
