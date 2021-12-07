@@ -65,7 +65,7 @@
         ]);
 
         var options = {
-            height: 275
+            height: 300
         };
 
         var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
