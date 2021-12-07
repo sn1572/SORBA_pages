@@ -22,22 +22,16 @@
         data.addColumn('string', 'Dependencies');
 
         data.addRows([
-            ['RB-refresh',          <!-- ID -->
-             'R&B Refresh',         <!-- Name -->
-             'ez17',                <!-- Resource used -->
-             new Date(2022, 0, 1),  <!-- Start date -->
-             new Date(2022, 3, 1),  <!-- End date -->
-             null,                  <!-- Duration -->
-             60,                    <!-- Percent complete -->
-             null],                 <!-- Dependencies (Task ID) -->
-            ['RR-refresh',
-             'R&R Refresh',
-             'ez17',
-             new Date(2022, 3, 1),
-             new Date(2022, 9, 1),
-             null,
-             0,
-             'RB-refresh']
+            ['Research', 'Find sources', null,
+            new Date(2015, 0, 1), new Date(2015, 0, 5), null,  100,  null],
+            ['Write', 'Write paper', 'write',
+            null, new Date(2015, 0, 9), daysToMilliseconds(3), 25, 'Research,Outline'],
+            ['Cite', 'Create bibliography', 'write',
+            null, new Date(2015, 0, 7), daysToMilliseconds(1), 20, 'Research'],
+            ['Complete', 'Hand in paper', 'complete',
+            null, new Date(2015, 0, 10), daysToMilliseconds(1), 0, 'Cite,Write'],
+            ['Outline', 'Outline paper', 'write',
+            null, new Date(2015, 0, 6), daysToMilliseconds(1), 100, 'Research']
         ]);
 
         var options = {
