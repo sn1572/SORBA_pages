@@ -46,7 +46,7 @@
              60,                    <!-- Percent complete -->
              null],                 <!-- Dependencies (Task ID) -->
             ['RR-refresh',
-             'R&R Refresj',
+             'R&R Refresh',
              'ez17',
              new Date(2022, 3, 1),
              new Date(2022, 9, 1),
