@@ -50,8 +50,8 @@
              new Date(2022, 2, 2),
              new Date(2022, 6, 1),
              null, 0, 'Gnarnia-layout'],
-            ['Gnarnia-bench', 'Gnarnia climb trail maintanence', 'hand-tools',
-             new Date(2021, 12, 18),
+            ['Gnarnia-bench', 'Gnarnia maintanence', 'hand-tools',
+             new Date(2021, 11, 18),
              new Date(2022, 2, 1),
              null, 0, null]
         ]);
