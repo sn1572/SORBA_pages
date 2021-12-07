@@ -44,7 +44,7 @@
              new Date(2022, 3, 1),  <!-- End date -->
              null,                  <!-- Duration -->
              60,                    <!-- Percent complete -->
-             null]                  <!-- Dependencies (Task ID) -->
+             null],                 <!-- Dependencies (Task ID) -->
 
             ['RR-refresh',
              'R&R Refresj',
