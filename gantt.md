@@ -75,6 +75,7 @@
     </script>
 </head>
 <body>
+    <p>All bets are off if we take possession of Yellow Creek.</p>
     <div id="chart_div"></div>
 </body>
 </html>
