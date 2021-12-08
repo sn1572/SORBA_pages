@@ -62,7 +62,7 @@
              new Date(2021, 11, 18),
              new Date(2022, 2, 1),
              null, 0, null],
-            ['Holler-sign', 'Holler sign install', ['Kel&Bob','ez17'],
+            ['Holler-sign', 'Holler sign install', 'Kel&Bob',
              new Date(2022,0,1),
              new Date(2022,3,1),
              null, 0, null]
