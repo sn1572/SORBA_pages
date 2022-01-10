@@ -78,7 +78,7 @@
 
         var options = {
             height: 400,
-            width: 1920
+            width: 1200
         };
 
         var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
