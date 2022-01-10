@@ -28,8 +28,16 @@
              new Date(2021, 12, 18),<!-- Start date -->
              new Date(2022, 3, 1),  <!-- End date -->
              null,                  <!-- Duration -->
-             60,                    <!-- Percent complete -->
+             90,                    <!-- Percent complete -->
              null],                 <!-- Dependencies (Task ID) -->
+            ['Holler / Hop drains',
+             '22 winter drains',
+             'ez17',
+             new Date(2022, 0, 1),
+             new Date(2022, 0, 14),
+             null,
+             90,
+             'RB-refresh'],
             ['RR-refresh',
              'R&R Refresh',
              'ez17',
