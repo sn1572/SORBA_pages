@@ -25,7 +25,7 @@
             ['RB-refresh',          <!-- ID -->
              'R&B Refresh',         <!-- Name -->
              'ez17',                <!-- Resource used -->
-             new Date(2021, 12, 18),<!-- Start date -->
+             new Date(2021, 11, 1),<!-- Start date -->
              new Date(2022, 0, 1),  <!-- End date -->
              null,                  <!-- Duration -->
              100,                    <!-- Percent complete -->
