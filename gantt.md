@@ -26,9 +26,9 @@
              'R&B Refresh',         <!-- Name -->
              'ez17',                <!-- Resource used -->
              new Date(2021, 12, 18),<!-- Start date -->
-             new Date(2022, 3, 1),  <!-- End date -->
+             new Date(2022, 0, 1),  <!-- End date -->
              null,                  <!-- Duration -->
-             90,                    <!-- Percent complete -->
+             100,                    <!-- Percent complete -->
              null],                 <!-- Dependencies (Task ID) -->
             ['Holler / Hop drains',
              '22 winter drains',
